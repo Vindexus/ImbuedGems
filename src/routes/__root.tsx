@@ -22,7 +22,11 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'Imbued Gems',
+      },
+      {
+        name: 'description',
+        content: 'Find Path of Exile trade links for imbued skill gems and their built-in support gems.',
       },
     ],
   }),

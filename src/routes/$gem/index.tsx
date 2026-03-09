@@ -8,6 +8,12 @@ export const Route = createFileRoute('/$gem/')({
   validateSearch: (search: Record<string, unknown>) => ({
     selected: typeof search.selected === 'string' ? search.selected : undefined,
   }),
+  head: ({ loaderData }) => ({
+    meta: [
+      { title: loaderData ? `${loaderData.gem.name} — Imbued Gems` : 'Imbued Gems' },
+      { name: 'description', content: loaderData ? `Trade search links for ${loaderData.gem.name} with its imbued built-in support gems in Path of Exile.` : '' },
+    ],
+  }),
   loader: ({ params }) => {
     const gem = GEMS.skills.find((g) => g.slug === params.gem)
     if (!gem) {

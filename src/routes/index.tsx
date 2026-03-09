@@ -9,6 +9,12 @@ export const Route = createFileRoute('/')({
   validateSearch: (search: Record<string, unknown>) => ({
     search: typeof search.search === 'string' ? search.search : undefined,
   }),
+  head: () => ({
+    meta: [
+      { title: 'Imbued Gems — PoE Trade Helper' },
+      { name: 'description', content: 'Browse imbued skill gems and generate Path of Exile trade links filtered by built-in support gems.' },
+    ],
+  }),
   component: Home,
   loader: () => GEMS.skills,
 })
