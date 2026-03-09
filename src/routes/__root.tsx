@@ -8,6 +8,9 @@ import {
   Scripts,
 } from '@tanstack/react-router'
 
+import '../data/gems'
+import '../css/index.css'
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [
@@ -36,12 +39,14 @@ function RootComponent() {
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html>
+    <html lang='en'>
       <head>
         <HeadContent />
       </head>
-      <body>
-        {children}
+      <body className="bg-gray-950 text-gray-100 min-h-screen overflow-y-scroll">
+        <div className="max-w-3xl mx-auto px-4 py-8">
+          {children}
+        </div>
         <Scripts />
       </body>
     </html>

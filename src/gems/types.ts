@@ -1,18 +1,24 @@
-type GemColor = 'red' | 'green' | 'blue'
+export type GemColor = 'red' | 'green' | 'blue' | 'white'
 
-type GemTag = 'attack' | 'projectile' | 'spell' | 'minion'
+export type GemTag = "Spell" | "Minion" | "Duration" | "AoE" | "Physical" | "Lightning" | "Chaos" | "Support" | "Cold" | "Fire" | "Attack" | "Trap" | "Curse" | "Mark" | "Critical" | "Movement" | "Travel" | "Melee" | "Strike" | "Warcry" | "Aura" | "Chaining" | "Guard" | "Arcane" | "Trigger" | "Brand" | "Bow" | "Projectile" | "Totem" | "Exceptional" | "Orb" | "Hex" | "Nova" | "Channelling" | "Mine" | "Prismatic" | "Stance" | "Slam" | "Retaliation" | "Blink" | "Link" | "Blessing" | "Herald" | "Golem" | "Vaal"
 
 export type Gem = {
-	color: GemColor
-}
-
-export type SkillGem = {
-	name: string
-	key: string
+	id: string
+	slug: string
+	colors: GemColor[]
 	tags: GemTag[]
+	name: string
 }
 
-export type SupportGem = {
-	canSupport: GemTag[]
-	cannotSupport: GemTag[]
+export type SkillGem = Gem & ({
+	type: 'alt'
+  baseGemName: string
+	altLetter: string
+} | {
+	type: 'base'
+})
+
+export type SupportGem = Gem & {
+  validSkillIds: string[]
+  tradeId: number
 }
