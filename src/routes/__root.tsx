@@ -3,6 +3,7 @@
 import type { ReactNode } from 'react'
 import {
   Outlet,
+  Link,
   createRootRoute,
   HeadContent,
   Scripts,
@@ -51,6 +52,9 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
         <div className="max-w-3xl mx-auto px-4 py-8">
           {children}
         </div>
+        <footer className="max-w-3xl mx-auto px-4 pb-24 text-sm text-gray-500">
+          <Link to="/about" className="hover:text-gray-300">About</Link>
+        </footer>
         <Scripts />
       </body>
     </html>

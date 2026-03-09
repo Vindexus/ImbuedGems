@@ -4,6 +4,7 @@ import { GEMS } from '../data/gems'
 import { getValidSupports } from '../gems/gems'
 import { getGemTradeLink } from '../gems/trade'
 import { ExternalLink } from '../components/ExternalLink'
+import { gemColorStyle } from '../gems/colors'
 
 export const Route = createFileRoute('/')({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -48,6 +49,7 @@ function Home() {
               params={{ gem: sg.slug }}
               search={{ selected: undefined }}
               className="flex-1"
+              style={gemColorStyle(sg.colors)}
             >
               {sg.name}
             </Link>

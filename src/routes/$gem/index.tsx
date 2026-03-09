@@ -3,6 +3,7 @@ import { GEMS } from '../../data/gems'
 import { getValidSupports } from '../../gems/gems'
 import { getGemTradeLink } from '../../gems/trade'
 import { ExternalLink } from '../../components/ExternalLink'
+import { gemColorStyle } from '../../gems/colors'
 
 export const Route = createFileRoute('/$gem/')({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -63,7 +64,7 @@ function RouteComponent() {
       </Link>
 
       <div>
-        <h1 className="text-2xl font-bold">{gem.name}</h1>
+        <h1 className="text-2xl font-bold" style={gemColorStyle(gem.colors)}>{gem.name}</h1>
         <div className="text-sm text-gray-400 mt-1">{gem.tags.join(', ')}</div>
       </div>
 
@@ -93,7 +94,7 @@ function RouteComponent() {
                   onChange={() => toggleSupport(s.slug)}
                   className="accent-blue-400 shrink-0"
                 />
-                <span className="truncate">{s.name}</span>
+                <span className="truncate" style={gemColorStyle(s.colors)}>{s.name}</span>
               </label>
               <ExternalLink href={getGemTradeLink(gem, supports, [s])}>
                 <span className="hidden sm:inline">Only this</span>
