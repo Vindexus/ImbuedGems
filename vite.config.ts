@@ -6,12 +6,21 @@ import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: '/ImbuedGems/',
   server: {
     port: 3000,
   },
   plugins: [
     tsConfigPaths(),
-    tanstackStart(),
+    tanstackStart({
+      prerender: {
+        enabled: true,
+        autoSubfolderIndex: true,
+        autoStaticPathsDiscovery: true,
+        crawlLinks: true,
+        failOnError: true,
+      },
+    }),
     tailwindcss(),
 
     // react's vite plugin must come after start's vite plugin
