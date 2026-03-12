@@ -257,7 +257,7 @@ const ALT_LETTER_OVERRIDES = new Map<string, string>([
 const excludedTags = ['Vaal', 'Exceptional']
 
 function gemSlug(name: string): string {
-  return name.replace(/ Support$/, '').toLowerCase().split(' ').join('-')
+  return name.replace(/ Support$/, '').toLowerCase().split(' ').join('-').split("'").join('')
 }
 
 const gems: { skills: SkillGem[]; supports: SupportGem[] } = { skills: [], supports: [] }

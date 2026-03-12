@@ -8,6 +8,6 @@ const COLOR_MAP: Record<GemColor, string> = {
   white: '#e5e7eb',
 }
 
-export function gemColorStyle(colors: GemColor[]): CSSProperties {
-  return { color: COLOR_MAP[colors[0]] ?? '#e5e7eb' }
+export function gemColorStyle(color: GemColor): CSSProperties {
+  return { color: COLOR_MAP[color] ?? '#e5e7eb' }
 }

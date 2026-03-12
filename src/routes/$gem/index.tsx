@@ -14,7 +14,11 @@ export const Route = createFileRoute('/$gem/')({
     if (!gem) {
       throw new Error(`Gem not found: ${params.gem}`)
     }
-    const supports = getValidSupports(gem)
+    const COLOR_ORDER = ['red', 'green', 'blue', 'white']
+    const supports = getValidSupports(gem).sort((a, b) => {
+      const colorDiff = COLOR_ORDER.indexOf(a.color) - COLOR_ORDER.indexOf(b.color)
+      return colorDiff !== 0 ? colorDiff : a.name.localeCompare(b.name)
+    })
     return { gem, supports }
   },
   component: RouteComponent,
@@ -57,6 +61,25 @@ function RouteComponent() {
     ? { selected: '' }
     : { selected: undefined }
 
+  function colorToggleSearch(color: string) {
+    const colorSlugs = supports.filter(s => s.color === color).map(s => s.slug)
+    const allColorSelected = colorSlugs.every(slug => selectedSlugs.includes(slug))
+    const next = allColorSelected
+      ? selectedSlugs.filter(s => !colorSlugs.includes(s))
+      : [...new Set([...selectedSlugs, ...colorSlugs])]
+    const isAll = next.length === supports.length
+    return { selected: isAll ? undefined : next.join(',') }
+  }
+
+  const colors = ['red', 'green', 'blue', 'white'].filter(c => supports.some(s => s.color === c))
+  const colorLabel: Record<string, string> = { red: 'Red', green: 'Green', blue: 'Blue', white: 'White' }
+  const colorClass: Record<string, string> = {
+    red: 'text-red-400 hover:text-red-300',
+    green: 'text-green-400 hover:text-green-300',
+    blue: 'text-blue-400 hover:text-blue-300',
+    white: 'text-gray-200 hover:text-white',
+  }
+
   return (
     <div className="flex flex-col gap-4 pb-24">
       <Link to="/" search={{ search: undefined }} className="text-sm text-blue-400 hover:text-blue-300 self-start">
@@ -64,18 +87,34 @@ function RouteComponent() {
       </Link>
 
       <div>
-        <h1 className="text-2xl font-bold" style={gemColorStyle(gem.colors)}>{gem.name}</h1>
+        <h1 className="text-2xl font-bold" style={gemColorStyle(gem.color)}>{gem.name}</h1>
         <div className="text-sm text-gray-400 mt-1">{gem.tags.join(', ')}</div>
+        {gem.description && <p className="text-sm text-gray-300 mt-2">{gem.description}</p>}
       </div>
 
       <div className="flex items-center gap-4">
-        <button
-          type="button"
-          onClick={() => navigate({ resetScroll: false, search: toggleAllSearch })}
-          className="text-sm text-blue-400 hover:text-blue-300"
-        >
-          Toggle All
-        </button>
+        <div className="flex items-center gap-2 text-sm">
+          <span className="text-gray-500">Toggle</span>
+          <Link
+            from={Route.fullPath}
+            resetScroll={false}
+            search={toggleAllSearch}
+            className="text-gray-300 hover:text-white"
+          >
+            All
+          </Link>
+          {colors.map(c => (
+            <Link
+              key={c}
+              from={Route.fullPath}
+              resetScroll={false}
+              search={colorToggleSearch(c)}
+              className={colorClass[c]}
+            >
+              {colorLabel[c]}
+            </Link>
+          ))}
+        </div>
         <ExternalLink href={getGemTradeLink(gem, supports, supports)}>
           <span className="hidden sm:inline">Search with all supports</span>
           <span className="sm:hidden">All supports ↗</span>
@@ -87,14 +126,24 @@ function RouteComponent() {
           const checked = selectedSlugs.includes(s.slug)
           return (
             <div key={s.id} className="flex items-center gap-3 py-3">
-              <label className="flex items-center gap-2 flex-1 cursor-pointer min-w-0">
+              <label className="flex items-start gap-2 flex-1 cursor-pointer min-w-0">
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => toggleSupport(s.slug)}
-                  className="accent-blue-400 shrink-0"
+                  className="accent-blue-400 shrink-0 mt-1"
                 />
-                <span className="truncate" style={gemColorStyle(s.colors)}>{s.name}</span>
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span style={gemColorStyle(s.color)}>{s.name}</span>
+                    <span className="text-xs text-gray-500">{s.costMultiplier}% cost</span>
+                  </div>
+                  {s.description.length > 0 && (
+                    <ul className="text-xs text-gray-400 mt-0.5 space-y-0.5">
+                      {s.description.map((line) => <li key={line}>{line}</li>)}
+                    </ul>
+                  )}
+                </div>
               </label>
               <ExternalLink href={getGemTradeLink(gem, supports, [s])}>
                 <span className="hidden sm:inline">Only this</span>

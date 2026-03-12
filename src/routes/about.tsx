@@ -27,14 +27,14 @@ function AboutPage() {
       <p>
         Gem data sourced from{' '}
         <a
-          href="https://www.poegems.com"
+          href="https://repoe-fork.github.io"
           target="_blank"
           rel="noreferrer"
           className="text-yellow-400 hover:text-yellow-300"
         >
-          poegems.com
+          RePoE
         </a>
-        , an excellent resource for Path of Exile gem information.
+        , a collection of Path of Exile game data.
       </p>
 
       <p>

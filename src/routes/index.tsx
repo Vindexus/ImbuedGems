@@ -1,5 +1,6 @@
 // src/routes/index.tsx
 import { createFileRoute, Link, useNavigate } from '@tanstack/react-router'
+import { useState, useEffect, useRef } from 'react'
 import { GEMS } from '../data/gems'
 import { getValidSupports } from '../gems/gems'
 import { getGemTradeLink } from '../gems/trade'
@@ -17,7 +18,7 @@ export const Route = createFileRoute('/')({
     ],
   }),
   component: Home,
-  loader: () => GEMS.skills,
+  loader: () => GEMS.skills.slice().sort((a, b) => a.name.localeCompare(b.name)),
 })
 
 function Home() {
@@ -25,8 +26,23 @@ function Home() {
   const { search } = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
 
-  const filtered = search
-    ? gems.filter(g => g.name.toLowerCase().includes(search.toLowerCase()))
+  const [inputValue, setInputValue] = useState(search ?? '')
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  // Sync local state if URL changes externally (back/forward navigation)
+  useEffect(() => { setInputValue(search ?? '') }, [search])
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const value = e.target.value
+    setInputValue(value)
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(() => {
+      navigate({ resetScroll: false, search: { search: value || undefined } })
+    }, 400)
+  }
+
+  const filtered = inputValue
+    ? gems.filter(g => g.name.toLowerCase().includes(inputValue.toLowerCase()))
     : gems
 
   return (
@@ -34,11 +50,8 @@ function Home() {
       <input
         type="search"
         placeholder="Search gems..."
-        value={search ?? ''}
-        onChange={e => navigate({
-          resetScroll: false,
-          search: { search: e.target.value || undefined },
-        })}
+        value={inputValue}
+        onChange={handleChange}
         className="border border-gray-600 bg-gray-900 rounded px-3 py-2 text-gray-100 placeholder-gray-500 focus:outline-none focus:border-gray-400"
       />
       <div className="flex flex-col divide-y divide-gray-800">
@@ -49,7 +62,7 @@ function Home() {
               params={{ gem: sg.slug }}
               search={{ selected: undefined }}
               className="flex-1"
-              style={gemColorStyle(sg.colors)}
+              style={gemColorStyle(sg.color)}
             >
               {sg.name}
             </Link>
