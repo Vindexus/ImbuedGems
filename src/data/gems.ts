@@ -313,6 +313,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "A circle of ice expands from the caster. If the caster targets near their Frostbolt projectiles, it will expand from a number of those projectiles instead. If this skill would repeat when cast this way, it will instead expand again from the same projectiles after a short delay.",
       "type": "alt",
       "baseGemId": "IceNova",
+      "baseGemName": "Ice Nova",
       "altLetter": "x"
     },
     {
@@ -414,6 +415,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "A circle of ice expands from the caster.",
       "type": "alt",
       "baseGemId": "IceNova",
+      "baseGemName": "Ice Nova",
       "altLetter": "y"
     },
     {
@@ -638,6 +640,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Jump a short distance through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff.",
       "type": "alt",
       "baseGemId": "LeapSlam",
+      "baseGemName": "Leap Slam",
       "altLetter": "x"
     },
     {
@@ -860,6 +863,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channel to project an illusion which you steer. You gain stages while it moves, until it stops at a maximum total distance. Waves of area damage frequently pulse along its path, based on your attack speed. Stop channelling to release the illusion, dealing a final wave of damage. Requires a Melee Weapon.",
       "type": "alt",
       "baseGemId": "ChargedDash",
+      "baseGemName": "Charged Dash",
       "altLetter": "x"
     },
     {
@@ -1073,6 +1077,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Repeatedly hit enemies in a circle in front of you while channelling, dealing damage to and around the enemy. The critical strike chance is continually boosted while channelling. You unleash an additional hit for each stage reached once the channelling ends. Requires a Dagger, Claw or One-Handed Sword.",
       "type": "alt",
       "baseGemId": "BladeFlurry",
+      "baseGemName": "Blade Flurry",
       "altLetter": "x"
     },
     {
@@ -1399,6 +1404,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slams the ground in front of you, creating a wide wave that travels forward and damages enemies with an increased chance to stun. Requires a Two Handed Axe, Two Handed Mace, or Staff.",
       "type": "alt",
       "baseGemId": "GroundSlam",
+      "baseGemName": "Ground Slam",
       "altLetter": "x"
     },
     {
@@ -1613,6 +1619,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "The character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword.",
       "type": "alt",
       "baseGemId": "Cleave",
+      "baseGemName": "Cleave",
       "altLetter": "x"
     },
     {
@@ -1978,6 +1985,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Performs two fast strikes with a melee weapon.",
       "type": "alt",
       "baseGemId": "DoubleStrike",
+      "baseGemName": "Double Strike",
       "altLetter": "x"
     },
     {
@@ -2087,6 +2095,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Performs two fast strikes with a melee weapon, gaining stages which cause this skill to attack faster. All stages are lost when you move.",
       "type": "alt",
       "baseGemId": "DoubleStrike",
+      "baseGemName": "Double Strike",
       "altLetter": "y"
     },
     {
@@ -2299,6 +2308,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slashes twice, releasing wide waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. Requires a Two Handed Axe or Two Handed Sword.",
       "type": "alt",
       "baseGemId": "Lacerate",
+      "baseGemName": "Lacerate",
       "altLetter": "x"
     },
     {
@@ -2407,6 +2417,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. Requires a One Handed Axe or One Handed Sword.",
       "type": "alt",
       "baseGemId": "Lacerate",
+      "baseGemName": "Lacerate",
       "altLetter": "y"
     },
     {
@@ -2655,6 +2666,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a projectile with a wand or bow that deals fire, cold and lightning damage. If the projectile hits an enemy, it will deal damage in an area around them.",
       "type": "alt",
       "baseGemId": "ElementalHit",
+      "baseGemName": "Elemental Hit",
       "altLetter": "x"
     },
     {
@@ -2919,6 +2931,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attacks with both weapons, dealing the damage of both in one strike. Requires dual-wielding two different melee weapon types to use.",
       "type": "alt",
       "baseGemId": "DualStrike",
+      "baseGemName": "Dual Strike",
       "altLetter": "x"
     },
     {
@@ -3247,6 +3260,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Perform a strike with a melee weapon that gives the character a frenzy charge if it hits. Frenzy charges increase your attack speed.",
       "type": "alt",
       "baseGemId": "Frenzy",
+      "baseGemName": "Frenzy",
       "altLetter": "x"
     },
     {
@@ -3449,6 +3463,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Targets a corpse, causing it to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. Cannot target corpses that have been created by skills.",
       "type": "alt",
       "baseGemId": "DetonateDead",
+      "baseGemName": "Detonate Dead",
       "altLetter": "x"
     },
     {
@@ -3549,6 +3564,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. This will continue to target other corpses in the area, with a shorter delay between each one, until it runs out of corpses or has destroyed 8 corpses. Cannot be supported by Spell Cascade.",
       "type": "alt",
       "baseGemId": "DetonateDead",
+      "baseGemName": "Detonate Dead",
       "altLetter": "y"
     },
     {
@@ -3753,6 +3769,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Corpses near the targeted location explode, dealing damage in a small area and creating an orb which detonates after a duration, dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.",
       "type": "alt",
       "baseGemId": "VolatileDead",
+      "baseGemName": "Volatile Dead",
       "altLetter": "x"
     },
     {
@@ -3854,6 +3871,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Corpses near the targeted location explode, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.",
       "type": "alt",
       "baseGemId": "VolatileDead",
+      "baseGemName": "Volatile Dead",
       "altLetter": "y"
     },
     {
@@ -4197,6 +4215,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow that splits to hit different targets.",
       "type": "alt",
       "baseGemId": "SplitArrow",
+      "baseGemName": "Split Arrow",
       "altLetter": "x"
     },
     {
@@ -4403,6 +4422,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a sudden burst of cold in a targeted area, damaging enemies. The cooldown can be bypassed by expending a Power Charge.",
       "type": "alt",
       "baseGemId": "ColdSnap",
+      "baseGemName": "Cold Snap",
       "altLetter": "x"
     },
     {
@@ -4507,6 +4527,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee strike and an area of effect slam.",
       "type": "alt",
       "baseGemId": "RaiseZombie",
+      "baseGemName": "Raise Zombie",
       "altLetter": "x"
     },
     {
@@ -4560,6 +4581,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Raises necromantic energies into the sky above a targeted location, where they coalesce into a zombie minion. The minion then attacks by falling to the ground, causing an impact that deals damage in an area. The zombie cannot survive the impact.",
       "type": "alt",
       "baseGemId": "RaiseZombie",
+      "baseGemName": "Raise Zombie",
       "altLetter": "y"
     },
     {
@@ -4811,6 +4833,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a poisonous arrow which deals chaos damage in an area on impact.",
       "type": "alt",
       "baseGemId": "CausticArrow",
+      "baseGemName": "Caustic Arrow",
       "altLetter": "x"
     },
     {
@@ -4948,6 +4971,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Engulfs you in magical fire that rapidly burns you and nearby enemies. Your cast speed is substantially increased while under this effect. The effect ends when you have 1 life remaining. Requires mana.",
       "type": "alt",
       "baseGemId": "RighteousFire",
+      "baseGemName": "Righteous Fire",
       "altLetter": "x"
     },
     {
@@ -5143,6 +5167,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Discharge all the character's charges to deal elemental damage to all nearby monsters.",
       "type": "alt",
       "baseGemId": "Discharge",
+      "baseGemName": "Discharge",
       "altLetter": "x"
     },
     {
@@ -5409,6 +5434,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Teleports the character to a nearby monster and attacks with a melee weapon. If no specific monster is targeted, one is picked at random. Grants a buff that increases movement speed for a duration. The cooldown can be bypassed by expending a Power Charge.",
       "type": "alt",
       "baseGemId": "FlickerStrike",
+      "baseGemName": "Flicker Strike",
       "altLetter": "x"
     },
     {
@@ -5629,6 +5655,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire.",
       "type": "alt",
       "baseGemId": "Spark",
+      "baseGemName": "Spark",
       "altLetter": "x"
     },
     {
@@ -5740,6 +5767,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Launches unpredictable sparks with that move randomly with large differences in speed and distance until they hit an enemy or expire.",
       "type": "alt",
       "baseGemId": "Spark",
+      "baseGemName": "Spark",
       "altLetter": "y"
     },
     {
@@ -5953,6 +5981,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Launches a shard of ice that splits on hitting terrain or enemies. After splitting, the projectiles are in second form, which moves much faster and pierces through enemies.",
       "type": "alt",
       "baseGemId": "IceSpear",
+      "baseGemName": "Ice Spear",
       "altLetter": "x"
     },
     {
@@ -6063,6 +6092,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Raises a spectral version of a defeated foe as a temporary minion to fight for you in battle for a duration.",
       "type": "alt",
       "baseGemId": "RaiseSpectre",
+      "baseGemName": "Raise Spectre",
       "altLetter": "x"
     },
     {
@@ -6299,6 +6329,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attacks with your weapon, applying a charged debuff to you the first time you hit an enemy with this skill. Upon reaching 6 charges, or charges expiring, the charged debuff is removed to damage nearby enemies. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "InfernalBlow",
+      "baseGemName": "Infernal Blow",
       "altLetter": "x"
     },
     {
@@ -6526,6 +6557,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Hits enemies, converting some of your physical damage to cold damage. If striking three times in a row, the third strike will be a critical strike. Requires a Mace, Sceptre or Staff.",
       "type": "alt",
       "baseGemId": "GlacialHammer",
+      "baseGemName": "Glacial Hammer",
       "altLetter": "x"
     },
     {
@@ -6722,6 +6754,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a wall of ice which holds back enemies. Targets under the wall are damaged and pushed back, with more damage dealt the more frost walls are currently active.",
       "type": "alt",
       "baseGemId": "FrostWall",
+      "baseGemName": "Frost Wall",
       "altLetter": "x"
     },
     {
@@ -7067,6 +7100,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Casts a ring of Lightning around you, followed by a larger Lightning nova. Each effect hits enemies caught in their area with Lightning Damage. This then repeats, with each repeat offset from the previous in the direction you target.",
       "type": "alt",
       "baseGemId": "ShockNova",
+      "baseGemName": "Shock Nova",
       "altLetter": "x"
     },
     {
@@ -7297,6 +7331,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, deals the damage of both weapons in one strike. Requires a claw, dagger or sword.",
       "type": "alt",
       "baseGemId": "ViperStrike",
+      "baseGemName": "Viper Strike",
       "altLetter": "x"
     },
     {
@@ -8115,6 +8150,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summon Skeleton Archer minions at the targeted location. They fire arrows and die after a duration.",
       "type": "alt",
       "baseGemId": "SummonSkeletons",
+      "baseGemName": "Summon Skeletons",
       "altLetter": "x"
     },
     {
@@ -8177,6 +8213,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summon Skeleton Mage minions of random elemental types at the targeted location. They cast projectile spells based on their element, and die after a duration.",
       "type": "alt",
       "baseGemId": "SummonSkeletons",
+      "baseGemName": "Summon Skeletons",
       "altLetter": "y"
     },
     {
@@ -8393,6 +8430,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attacks enemies with a forceful blow. Requires a Staff.",
       "type": "alt",
       "baseGemId": "HeavyStrike",
+      "baseGemName": "Heavy Strike",
       "altLetter": "y"
     },
     {
@@ -8643,6 +8681,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
       "type": "alt",
       "baseGemId": "DominatingBlow",
+      "baseGemName": "Dominating Blow",
       "altLetter": "x"
     },
     {
@@ -8871,6 +8910,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires multiple arrows into the air, to land in sequence after a delay, starting in front of you and proceeding in a line in the direction of the target. Each arrow deals damage in an area around it.",
       "type": "alt",
       "baseGemId": "RainOfArrows",
+      "baseGemName": "Rain of Arrows",
       "altLetter": "x"
     },
     {
@@ -8986,6 +9026,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires multiple arrows into the air, to slowly land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.",
       "type": "alt",
       "baseGemId": "RainOfArrows",
+      "baseGemName": "Rain of Arrows",
       "altLetter": "y"
     },
     {
@@ -9190,6 +9231,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "A large flaming bolt falls towards the targeted area. The bolt explodes when landing, dealing damage to nearby enemies.",
       "type": "alt",
       "baseGemId": "Firestorm",
+      "baseGemName": "Firestorm",
       "altLetter": "x"
     },
     {
@@ -9295,6 +9337,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.",
       "type": "alt",
       "baseGemId": "Firestorm",
+      "baseGemName": "Firestorm",
       "altLetter": "y"
     },
     {
@@ -9549,6 +9592,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as a projectile as you strike, flying out to hit farther-away enemies and chain between them. The projectile cannot miss if the melee attack hit a target.",
       "type": "alt",
       "baseGemId": "LightningStrike",
+      "baseGemName": "Lightning Strike",
       "altLetter": "x"
     },
     {
@@ -9911,6 +9955,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires your wand to fire a single projectile each at a number of nearby enemies, granting you a power charge if an enemy is killed by, or soon after, the hit.",
       "type": "alt",
       "baseGemId": "PowerSiphon",
+      "baseGemName": "Power Siphon",
       "altLetter": "x"
     },
     {
@@ -10150,6 +10195,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Punctures enemies, causing a bleeding debuff, which will be affected by modifiers to skill duration. Puncture works with daggers, claws or swords.",
       "type": "alt",
       "baseGemId": "Puncture",
+      "baseGemName": "Puncture",
       "altLetter": "x"
     },
     {
@@ -10392,6 +10438,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a charged arrow which damages enemies by causing them to be struck by a bolt of lightning. It sticks into the final target, causing them to be struck and damaged multiple times.",
       "type": "alt",
       "baseGemId": "LightningArrow",
+      "baseGemName": "Lightning Arrow",
       "altLetter": "x"
     },
     {
@@ -11022,6 +11069,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a burning arrow that deals fire damage and has a chance to ignite.",
       "type": "alt",
       "baseGemId": "BurningArrow",
+      "baseGemName": "Burning Arrow",
       "altLetter": "x"
     },
     {
@@ -11272,6 +11320,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a totem that shakes the earth around you, damaging enemies.",
       "type": "alt",
       "baseGemId": "ShockwaveTotem",
+      "baseGemName": "Shockwave Totem",
       "altLetter": "x"
     },
     {
@@ -11513,6 +11562,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a mine that fires projectiles at enemies when detonated. These projectiles quickly dissipate as they travel, before disappearing.",
       "type": "alt",
       "baseGemId": "IcicleMine",
+      "baseGemName": "Icicle Mine",
       "altLetter": "x"
     },
     {
@@ -11615,6 +11665,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a mine that fires projectiles around it when detonated. These projectiles quickly dissipate as they travel, before disappearing.",
       "type": "alt",
       "baseGemId": "IcicleMine",
+      "baseGemName": "Icicle Mine",
       "altLetter": "y"
     },
     {
@@ -11831,6 +11882,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that damages and impales a single enemy, and immobilises them for a duration based on how much damage was dealt. Modifiers to spell damage do not affect this skill's damage.",
       "type": "alt",
       "baseGemId": "BearTrap",
+      "baseGemName": "Bear Trap",
       "altLetter": "x"
     },
     {
@@ -12017,6 +12069,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies.",
       "type": "alt",
       "baseGemId": "FireTrap",
+      "baseGemName": "Fire Trap",
       "altLetter": "x"
     },
     {
@@ -12298,6 +12351,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arc of knives down into the ground in front of the caster which deal physical damage.\nCannot be supported by Volley.",
       "type": "alt",
       "baseGemId": "EtherealKnives",
+      "baseGemName": "Ethereal Knives",
       "altLetter": "x"
     },
     {
@@ -12405,6 +12459,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a circle of knives outwards around the caster which deal physical damage.",
       "type": "alt",
       "baseGemId": "EtherealKnives",
+      "baseGemName": "Ethereal Knives",
       "altLetter": "y"
     },
     {
@@ -12651,6 +12706,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a piercing arrow that converts some physical damage to cold on its target and converts all physical damage to cold in two cones perpendicular to the target.",
       "type": "alt",
       "baseGemId": "IceShot",
+      "baseGemName": "Ice Shot",
       "altLetter": "x"
     },
     {
@@ -12885,6 +12941,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire a single icy projectile that bursts on impact or when reaching the targeted area, dealing area damage and creating a chilling area that deals cold damage over time. This area will creep rapidly across the ground towards nearby enemies until its duration expires.",
       "type": "alt",
       "baseGemId": "CreepingFrost",
+      "baseGemName": "Creeping Frost",
       "altLetter": "x"
     },
     {
@@ -13074,6 +13131,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "An arc of lightning reaches from the caster to a targeted enemy and splits to simultaneously hit several other enemies.",
       "type": "alt",
       "baseGemId": "Arc",
+      "baseGemName": "Arc",
       "altLetter": "x"
     },
     {
@@ -13170,6 +13228,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "An arc of lightning reaches from the caster to a targeted enemy and chains to other enemies. Each time the arc chains, it will also chain a secondary arc to another enemy, but this secondary arc cannot chain further.",
       "type": "alt",
       "baseGemId": "Arc",
+      "baseGemName": "Arc",
       "altLetter": "y"
     },
     {
@@ -13416,6 +13475,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem.",
       "type": "alt",
       "baseGemId": "HolyFlameTotem",
+      "baseGemName": "Holy Flame Totem",
       "altLetter": "x"
     },
     {
@@ -13789,6 +13849,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Unleash orbs of energy while you channel that repeatedly jump away from the targeted location until their duration expires, dealing damage in a small area after each jump. When you stop channelling, all remaining orbs explode, dealing higher damage in a larger area.",
       "type": "alt",
       "baseGemId": "StormBurst",
+      "baseGemName": "Storm Burst",
       "altLetter": "x"
     },
     {
@@ -13971,6 +14032,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Continuously launches a torrent of fire from your hand, repeatedly damaging enemies. As you channel this spell longer, the flames spread wider close to you and spread longer directly in front of you. When you stop channelling you release a slow-moving wave of fire damage over a very large area that will apply a powerful Ignite.",
       "type": "alt",
       "baseGemId": "Incinerate",
+      "baseGemName": "Incinerate",
       "altLetter": "x"
     },
     {
@@ -14063,6 +14125,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Continuously launches a torrent of fire from your hand, repeatedly damaging enemies. As you channel this spell longer, the flames spread wider close to you and spread longer directly in front of you.",
       "type": "alt",
       "baseGemId": "Incinerate",
+      "baseGemName": "Incinerate",
       "altLetter": "y"
     },
     {
@@ -14279,6 +14342,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channel this skill to move towards a targeted location while spinning constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back.",
       "type": "alt",
       "baseGemId": "Cyclone",
+      "baseGemName": "Cyclone",
       "altLetter": "x"
     },
     {
@@ -14381,6 +14445,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage. Reaching maximum active totem count will cause all totems from this skill to detonate, applying the same burning damage for a duration. ",
       "type": "alt",
       "baseGemId": "SearingBond",
+      "baseGemName": "Searing Bond",
       "altLetter": "x"
     },
     {
@@ -14591,6 +14656,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attacks an area in front of you. Each Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.",
       "type": "alt",
       "baseGemId": "Reave",
+      "baseGemName": "Reave",
       "altLetter": "x"
     },
     {
@@ -14783,6 +14849,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that launches projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets.",
       "type": "alt",
       "baseGemId": "LightningTrap",
+      "baseGemName": "Lightning Trap",
       "altLetter": "x"
     },
     {
@@ -14919,6 +14986,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines. If your Guardian dies you cannot summon an Animated Guardian again in that area.",
       "type": "alt",
       "baseGemId": "AnimateGuardian",
+      "baseGemName": "Animate Guardian",
       "altLetter": "x"
     },
     {
@@ -15127,6 +15195,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a spectral copy of your shield as a projectile which cannot pierce, and deals off-hand damage augmented by the evasion of the shield. When it collides with something it will shatter, launching a number of smaller shards as projectiles in all directions. Modifiers that cause additional projectiles to be fired will add more shards, not more copies of the shield.",
       "type": "alt",
       "baseGemId": "SpectralShieldThrow",
+      "baseGemName": "Spectral Shield Throw",
       "altLetter": "x"
     },
     {
@@ -15232,6 +15301,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a spectral copy of your shield as a piercing projectile which deals off-hand damage augmented by the defences of the shield. When it reaches the targeted location it will hover in place, repeatedly firing a number of smaller shards as projectiles in all directions. The rate at which it releases shards will increase until all shards have been fired. Modifiers that cause additional projectiles to be fired will add more shards, not more copies of the shield.",
       "type": "alt",
       "baseGemId": "SpectralShieldThrow",
+      "baseGemName": "Spectral Shield Throw",
       "altLetter": "y"
     },
     {
@@ -15440,6 +15510,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws an intangible spectral copy of your melee weapon. It flies out and then becomes tangible as it returns to you, in a spinning attack that only hits and damages enemies while returning.",
       "type": "alt",
       "baseGemId": "SpectralThrow",
+      "baseGemName": "Spectral Throw",
       "altLetter": "x"
     },
     {
@@ -15547,6 +15618,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap which, once triggered, fires many spectral copies of your melee weapon. They fly out in all directions and then return to where the trap triggered, in a spinning attack that damages enemies in their path. If dual wielding, each Trap thrown will randomly use either the main hand or off hand weapon.",
       "type": "alt",
       "baseGemId": "SpectralThrow",
+      "baseGemName": "Spectral Throw",
       "altLetter": "y"
     },
     {
@@ -15653,6 +15725,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Animates a copy of your main hand Melee Weapon to fight by your side. Cannot be used by Totems, Traps or Mines.",
       "type": "alt",
       "baseGemId": "AnimateWeapon",
+      "baseGemName": "Animate Weapon",
       "altLetter": "x"
     },
     {
@@ -15709,6 +15782,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Animates a Ranged Weapon Item or Lingering Blade to fight by your side. You cannot animate unidentified Weapons. Will not animate weapons with 6 sockets. Cannot be used by Traps or Mines.",
       "type": "alt",
       "baseGemId": "AnimateWeapon",
+      "baseGemName": "Animate Weapon",
       "altLetter": "y"
     },
     {
@@ -16050,6 +16124,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Sets a marker at a location. After a short duration, a bolt strikes the marker, dealing physical damage around it and causing bolts to strike at any other markers you've cast. Bolt impacts will leave behind a pool of boiling blood, which deals physical damage over time to enemies within it for a secondary duration.",
       "type": "alt",
       "baseGemId": "StormCall",
+      "baseGemName": "Storm Call",
       "altLetter": "x"
     },
     {
@@ -16232,6 +16307,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channels to build up an explosion, which is released when you stop using the skill or automatically at maximum stages. The longer you channel, the larger the area of effect and damage of the explosion.",
       "type": "alt",
       "baseGemId": "Flameblast",
+      "baseGemName": "Flameblast",
       "altLetter": "x"
     },
     {
@@ -16324,6 +16400,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channels to concentrate an explosion, which is released when you stop using the skill. The longer you channel, the larger the damage of the explosion, but the smaller the area.",
       "type": "alt",
       "baseGemId": "Flameblast",
+      "baseGemName": "Flameblast",
       "altLetter": "y"
     },
     {
@@ -16556,6 +16633,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "After a short preparation time, you fire projectiles repeatedly with a Bow or Wand. These projectiles have a small randomised spread. This skill cannot be Triggered.",
       "type": "alt",
       "baseGemId": "Barrage",
+      "baseGemName": "Barrage",
       "altLetter": "x"
     },
     {
@@ -16778,6 +16856,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a single projectile which moves in a spiral while damaging each enemy in an area around it repeatedly with bolts of lightning.",
       "type": "alt",
       "baseGemId": "BallLightning",
+      "baseGemName": "Ball Lightning",
       "altLetter": "x"
     },
     {
@@ -16872,6 +16951,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a ball of lightning at a location that damages each enemy in an area around it repeatedly with bolts of lightning. Cannot be supported by Spell Echo or used by Totems.",
       "type": "alt",
       "baseGemId": "BallLightning",
+      "baseGemName": "Ball Lightning",
       "altLetter": "y"
     },
     {
@@ -16992,6 +17072,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly, converting all its physical damage to fire. Enemies will not directly engage these spirits, and can pass through them.",
       "type": "alt",
       "baseGemId": "SummonRagingSpirit",
+      "baseGemName": "Summon Raging Spirit",
       "altLetter": "x"
     },
     {
@@ -17196,6 +17277,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Strikes enemies in front of you with a surge of flame. If this ignites an enemy a large area of burning ground will be created under them. Your damage modifiers don't apply to this burning ground.",
       "type": "alt",
       "baseGemId": "FlameSurge",
+      "baseGemName": "Flame Surge",
       "altLetter": "x"
     },
     {
@@ -17574,6 +17656,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.",
       "type": "alt",
       "baseGemId": "GlacialCascade",
+      "baseGemName": "Glacial Cascade",
       "altLetter": "x"
     },
     {
@@ -17836,6 +17919,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles.",
       "type": "alt",
       "baseGemId": "MoltenStrike",
+      "baseGemName": "Molten Strike",
       "altLetter": "x"
     },
     {
@@ -18070,6 +18154,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a mine that deals damage in an area when detonated, then launches fiery projectiles that rain down around it, each exploding to deal damage in a smaller area. Placed mines apply a fire exposure aura to nearby enemies.",
       "type": "alt",
       "baseGemId": "PyroclastMine",
+      "baseGemName": "Pyroclast Mine",
       "altLetter": "x"
     },
     {
@@ -18300,6 +18385,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a single payload arrow into the air to land at a targeted location. It will then fire arrows out in all directions from that point.",
       "type": "alt",
       "baseGemId": "TornadoShot",
+      "baseGemName": "Tornado Shot",
       "altLetter": "x"
     },
     {
@@ -18856,6 +18942,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you.",
       "type": "alt",
       "baseGemId": "LightningTendrils",
+      "baseGemName": "Lightning Tendrils",
       "altLetter": "x"
     },
     {
@@ -18946,6 +19033,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a growing semicircular area in front of you.",
       "type": "alt",
       "baseGemId": "LightningTendrils",
+      "baseGemName": "Lightning Tendrils",
       "altLetter": "y"
     },
     {
@@ -19181,6 +19269,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a projectile from a Wand that causes a series of area explosions in a secondary radius around its point of impact, each damaging enemies.",
       "type": "alt",
       "baseGemId": "KineticBlast",
+      "baseGemName": "Kinetic Blast",
       "altLetter": "x"
     },
     {
@@ -19433,6 +19522,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver to fire arrows into the air to land around a target.",
       "type": "alt",
       "baseGemId": "BlinkArrow",
+      "baseGemName": "Blink Arrow",
       "altLetter": "x"
     },
     {
@@ -19562,6 +19652,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver to fire random elemental arrows which convert all physical damage to the chosen element and deal no damage of other damage types.",
       "type": "alt",
       "baseGemId": "BlinkArrow",
+      "baseGemName": "Blink Arrow",
       "altLetter": "y"
     },
     {
@@ -19814,6 +19905,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver to fire arrows into the air to land around a target.",
       "type": "alt",
       "baseGemId": "MirrorArrow",
+      "baseGemName": "Mirror Arrow",
       "altLetter": "x"
     },
     {
@@ -19943,6 +20035,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver to fire random elemental arrows which convert all physical damage to the chosen element and deal no damage of other damage types.",
       "type": "alt",
       "baseGemId": "MirrorArrow",
+      "baseGemName": "Mirror Arrow",
       "altLetter": "y"
     },
     {
@@ -20518,6 +20611,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attack with a melee weapon, gaining a Gathering Lightning buff for a duration if you hit an enemy. While you have Gathering Lightning, attacks with this skill will cause chaining beams of lightning, which chain additional times the more Gathering Lightning you have.",
       "type": "alt",
       "baseGemId": "StaticStrike",
+      "baseGemName": "Static Strike",
       "altLetter": "x"
     },
     {
@@ -20874,6 +20968,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Chaos Golem. The Chaos Golem can cast a damage over time Chaos aura and a cascade of Chaos spikes in addition to its melee attack.",
       "type": "alt",
       "baseGemId": "SummonChaosGolem",
+      "baseGemName": "Summon Chaos Golem",
       "altLetter": "x"
     },
     {
@@ -20931,6 +21026,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Chaos Golem. The Chaos Golem can cast a powerful damage over time Chaos aura that Withers enemies in addition to its melee attack.",
       "type": "alt",
       "baseGemId": "SummonChaosGolem",
+      "baseGemName": "Summon Chaos Golem",
       "altLetter": "y"
     },
     {
@@ -21044,6 +21140,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons an Ice Golem. The Ice Golem can use an icy barrage spell and a chilling spinning attack in addition to its melee attack.",
       "type": "alt",
       "baseGemId": "SummonIceGolem",
+      "baseGemName": "Summon Ice Golem",
       "altLetter": "x"
     },
     {
@@ -21101,6 +21198,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons an Ice Golem. The Ice Golem can use an icy barrage spell and a chilling spinning attack in addition to its melee attack. If reduced to low life it will trigger a spell that destroys itself to deal area damage and fire icy projectiles in a circle.",
       "type": "alt",
       "baseGemId": "SummonIceGolem",
+      "baseGemName": "Summon Ice Golem",
       "altLetter": "y"
     },
     {
@@ -21213,6 +21311,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Flame Golem. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile.",
       "type": "alt",
       "baseGemId": "SummonFlameGolem",
+      "baseGemName": "Summon Flame Golem",
       "altLetter": "x"
     },
     {
@@ -21270,6 +21369,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Flame Golem. When summoned, the Flame Golem attacks by falling from the sky, dealing fire damage in an area and leaving burning ground around the impact. After landing, it can cast a fire spray and a wave of fire damage.",
       "type": "alt",
       "baseGemId": "SummonFlameGolem",
+      "baseGemName": "Summon Flame Golem",
       "altLetter": "y"
     },
     {
@@ -21382,6 +21482,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Lightning Golem. The Lightning Golem fires a projectile spell, creates orbs of Lightning that zap nearby enemies, and casts a temporary aura that grants added Lightning Damage to spells and attacks used by the Golem and its nearby allies.",
       "type": "alt",
       "baseGemId": "SummonLightningGolem",
+      "baseGemName": "Summon Lightning Golem",
       "altLetter": "x"
     },
     {
@@ -21607,6 +21708,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slam the ground, damaging enemies in an area. Slams with main hand weapon deal more damage. Slams with off hand weapon have larger area of effect. Requires dual-wielding Swords, Maces, Sceptres, or Axes to use.",
       "type": "alt",
       "baseGemId": "IceCrash",
+      "baseGemName": "Ice Crash",
       "altLetter": "x"
     },
     {
@@ -21919,6 +22021,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Teleport to a location, damaging enemies and leaving a trail of burning ground, then repeat the teleport in the other direction. Cannot be triggered, or used by a totem, trap or mine. Cannot be supported by Unleash.",
       "type": "alt",
       "baseGemId": "FlameDash",
+      "baseGemName": "Flame Dash",
       "altLetter": "y"
     },
     {
@@ -22278,6 +22381,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attack enemies with greatly increased range, creating a chilling area that deals cold damage over time if it hits. Requires a Melee Weapon.",
       "type": "alt",
       "baseGemId": "FrostBlades",
+      "baseGemName": "Frost Blades",
       "altLetter": "x"
     },
     {
@@ -22667,6 +22771,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Your melee weapon strikes enemies, converting physical damage to a random element. Then, depending on the element chosen, it releases a fiery explosion, an arcing bolt of lightning, or an icy wave. It will avoid choosing the same element twice in a row.",
       "type": "alt",
       "baseGemId": "WildStrike",
+      "baseGemName": "Wild Strike",
       "altLetter": "x"
     },
     {
@@ -22841,6 +22946,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that creates a series of icy runic explosions in a circle around itself when triggered, dealing cold damage to all enemies caught in the blasts.",
       "type": "alt",
       "baseGemId": "IceTrap",
+      "baseGemName": "Ice Trap",
       "altLetter": "x"
     },
     {
@@ -23079,6 +23185,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a single arrow up in the air, to rain down at a targeted location. The arrow deals area damage around where it lands, as well as releasing a wave of fire which will apply a burning debuff to enemies. The impact of the arrow will also inflict this debuff.",
       "type": "alt",
       "baseGemId": "BlastRain",
+      "baseGemName": "Blast Rain",
       "altLetter": "x"
     },
     {
@@ -23309,6 +23416,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Create a burst of lightning from your Bow, firing no arrows but damaging enemies in a cone in front of you.",
       "type": "alt",
       "baseGemId": "GalvanicArrow",
+      "baseGemName": "Galvanic Arrow",
       "altLetter": "x"
     },
     {
@@ -23433,6 +23541,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire a trio of electrical arrows that quickly dissipate, vanishing shortly after being loosed. If the arrows' flight is stopped by colliding with a target, they create a burst of lightning, damaging enemies in a cone behind the target",
       "type": "alt",
       "baseGemId": "GalvanicArrow",
+      "baseGemName": "Galvanic Arrow",
       "altLetter": "y"
     },
     {
@@ -23638,6 +23747,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys, each wider and more damaging than the last. Enemies can be hit multiple times where these overlap.",
       "type": "alt",
       "baseGemId": "Bladefall",
+      "baseGemName": "Bladefall",
       "altLetter": "x"
     },
     {
@@ -23740,6 +23850,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys. Enemies can be hit multiple times where these overlap.",
       "type": "alt",
       "baseGemId": "Bladefall",
+      "baseGemName": "Bladefall",
       "altLetter": "y"
     },
     {
@@ -23830,6 +23941,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Once activated, continuously spends mana to cause volleys of ethereal weapons rain from the sky around you, dealing damage to enemies they impact. Each Blade will target a separate enemy in the volley area if possible. Each enemy can only be hit once by each volley, even if multiple blades land near them. This skill cannot be triggered or used by Totems, Traps, or Mines.",
       "type": "alt",
       "baseGemId": "Bladefall",
+      "baseGemName": "Bladefall",
       "altLetter": "z"
     },
     {
@@ -24026,6 +24138,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "This spell creates a swarm of ethereal blades which briefly orbit in an area around you, dealing damage every 0.6 seconds to all enemies in their radius.",
       "type": "alt",
       "baseGemId": "BladeVortex",
+      "baseGemName": "Blade Vortex",
       "altLetter": "x"
     },
     {
@@ -24233,6 +24346,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a crystal which lasts for a duration. When the crystal's duration ends, it explodes, dealing cold damage to enemies around it.",
       "type": "alt",
       "baseGemId": "FrostBomb",
+      "baseGemName": "Frost Bomb",
       "altLetter": "x"
     },
     {
@@ -24338,6 +24452,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a crystal which lasts for a duration. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it.",
       "type": "alt",
       "baseGemId": "FrostBomb",
+      "baseGemName": "Frost Bomb",
       "altLetter": "y"
     },
     {
@@ -24560,6 +24675,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a ballista totem that attacks with forking arrows.\nRequires a Bow.",
       "type": "alt",
       "baseGemId": "SiegeBallista",
+      "baseGemName": "Siege Ballista",
       "altLetter": "x"
     },
     {
@@ -24672,6 +24788,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a ring of ballista totems around a targeted location. These ballistae fire once at the targeted location and then expire. Requires a Bow.",
       "type": "alt",
       "baseGemId": "SiegeBallista",
+      "baseGemName": "Siege Ballista",
       "altLetter": "y"
     },
     {
@@ -24872,6 +24989,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates an electrical orb that will strike enemies in its area of effect with beams of lightning when placed, as well as when you use a lightning skill while within its area. These beams of lightning can then split to hit more enemies. When striking enemies, this orb will teleport to a random enemy struck. Casting this skill again will replace the previous orb.",
       "type": "alt",
       "baseGemId": "OrbOfStorms",
+      "baseGemName": "Orb of Storms",
       "altLetter": "x"
     },
     {
@@ -24986,6 +25104,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Stone Golem. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
       "type": "alt",
       "baseGemId": "SummonStoneGolem",
+      "baseGemName": "Summon Stone Golem",
       "altLetter": "x"
     },
     {
@@ -25044,6 +25163,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Stone Golem that takes a portion of the melee damage you recieve from enemy hits from its life before yours. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
       "type": "alt",
       "baseGemId": "SummonStoneGolem",
+      "baseGemName": "Summon Stone Golem",
       "altLetter": "y"
     },
     {
@@ -25276,6 +25396,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "Earthquake",
+      "baseGemName": "Earthquake",
       "altLetter": "x"
     },
     {
@@ -25398,6 +25519,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy dies while affected by Contagion, the debuff spreads to other enemies, but each time it spreads, it only deals three quarters as much damage as before.",
       "type": "alt",
       "baseGemId": "Contagion",
+      "baseGemName": "Contagion",
       "altLetter": "x"
     },
     {
@@ -25460,6 +25582,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy is hit while affected by Contagion, the debuff spreads to other enemies.",
       "type": "alt",
       "baseGemId": "Contagion",
+      "baseGemName": "Contagion",
       "altLetter": "y"
     },
     {
@@ -25604,6 +25727,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration. The damaging debuff is spread by Contagion.",
       "type": "alt",
       "baseGemId": "Blight",
+      "baseGemName": "Blight",
       "altLetter": "x"
     },
     {
@@ -25656,6 +25780,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a longer secondary duration, slowing their movement and reducing their life regeneration rate. Continued channelling adds layers of damage to the debuff, each with their own duration.",
       "type": "alt",
       "baseGemId": "Blight",
+      "baseGemName": "Blight",
       "altLetter": "y"
     },
     {
@@ -25890,6 +26015,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a projectile that applies a damage over time debuff when it hits. You lose Life and Energy Shield equal to a portion of the debuff damage. The debuff is spread by Contagion.",
       "type": "alt",
       "baseGemId": "EssenceDrain",
+      "baseGemName": "Essence Drain",
       "altLetter": "x"
     },
     {
@@ -26008,6 +26134,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a piercing projectile that applies a damage over time debuff when it hits. You are healed for a portion of the debuff damage.",
       "type": "alt",
       "baseGemId": "EssenceDrain",
+      "baseGemName": "Essence Drain",
       "altLetter": "y"
     },
     {
@@ -26431,6 +26558,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slams the ground, creating a wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "Sunder",
+      "baseGemName": "Sunder",
       "altLetter": "x"
     },
     {
@@ -26542,6 +26670,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. When the wave reaches a target or terrain, it can restart aiming towards an enemy, if one is in range. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "Sunder",
+      "baseGemName": "Sunder",
       "altLetter": "y"
     },
     {
@@ -26857,6 +26986,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it. If the caster targets near their Frostbolt projectiles, it will explode from a number of those projectiles instead, destroying them.",
       "type": "alt",
       "baseGemId": "Vortex",
+      "baseGemName": "Vortex",
       "altLetter": "x"
     },
     {
@@ -27061,6 +27191,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "This spell deals chaos damage in an area around you. Casting this spell will cause you to gain Ruin. If this spell inflicts your seventh Ruin, it will sacrifice a large portion of your life to deal extra chaos damage based on the amount sacrificed, and remove all Ruin from you.",
       "type": "alt",
       "baseGemId": "DarkPact",
+      "baseGemName": "Dark Pact",
       "altLetter": "x"
     },
     {
@@ -27159,6 +27290,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns.",
       "type": "alt",
       "baseGemId": "ScorchingRay",
+      "baseGemName": "Scorching Ray",
       "altLetter": "x"
     },
     {
@@ -27389,6 +27521,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "A targeted corpse explodes, dealing area damage and turning into a volcanic geyser, which will repeatedly unleash projectiles sequentially over the surrounding area and detonate nearby corpses for a duration. Corpse explosions are not affected by modifiers to spell damage, and cannot be reflected.",
       "type": "alt",
       "baseGemId": "Cremation",
+      "baseGemName": "Cremation",
       "altLetter": "x"
     },
     {
@@ -27505,6 +27638,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a volcanic geyser at a location, which will repeatedly unleash projectiles sequentially over the surrounding area for a duration.",
       "type": "alt",
       "baseGemId": "Cremation",
+      "baseGemName": "Cremation",
       "altLetter": "y"
     },
     {
@@ -27702,6 +27836,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Violently destroys your body and recreates it at the location of a targeted enemy or damageable minion, dealing spell damage in an area at both locations. If there is no specific target, it will prioritise minions over enemies. If targeting a minion, the minion will also be destroyed in an explosion which deals damage around it that is not affected by modifiers to spell damage, and cannot be reflected. This spell cannot be repeated.",
       "type": "alt",
       "baseGemId": "Bodyswap",
+      "baseGemName": "Bodyswap",
       "altLetter": "x"
     },
     {
@@ -27926,6 +28061,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",
       "type": "alt",
       "baseGemId": "TectonicSlam",
+      "baseGemName": "Tectonic Slam",
       "altLetter": "x"
     },
     {
@@ -28165,6 +28301,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that creates an explosion when triggered, dealing spell damage in an area around it. A number of smaller explosions occur within a secondary area around the trap in quick succession after the first.",
       "type": "alt",
       "baseGemId": "ExplosiveTrap",
+      "baseGemName": "Explosive Trap",
       "altLetter": "x"
     },
     {
@@ -28253,6 +28390,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that creates a large explosion when triggered, dealing spell damage in an area around it.",
       "type": "alt",
       "baseGemId": "ExplosiveTrap",
+      "baseGemName": "Explosive Trap",
       "altLetter": "y"
     },
     {
@@ -28375,6 +28513,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that applies debuff beams to a number of nearby enemies for a duration. The beams chill enemies and deal cold damage over time.",
       "type": "alt",
       "baseGemId": "SiphoningTrap",
+      "baseGemName": "Siphoning Trap",
       "altLetter": "x"
     },
     {
@@ -28561,6 +28700,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap that releases a number of flames in different directions around it when triggered. The flames last for a duration repeatedly dealing damage.",
       "type": "alt",
       "baseGemId": "FlamethrowerTrap",
+      "baseGemName": "Flamethrower Trap",
       "altLetter": "x"
     },
     {
@@ -28746,6 +28886,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage.",
       "type": "alt",
       "baseGemId": "LightningSpireTrap",
+      "baseGemName": "Lightning Spire Trap",
       "altLetter": "x"
     },
     {
@@ -28840,6 +28981,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage.",
       "type": "alt",
       "baseGemId": "LightningSpireTrap",
+      "baseGemName": "Lightning Spire Trap",
       "altLetter": "y"
     },
     {
@@ -29022,6 +29164,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap which, once triggered, releases a number of waves. Each wave deals damage in a series of small bursts in a line, ending with a larger burst.",
       "type": "alt",
       "baseGemId": "SeismicTrap",
+      "baseGemName": "Seismic Trap",
       "altLetter": "x"
     },
     {
@@ -29264,6 +29407,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. The cooldown can be bypassed by expending an Endurance Charge. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "ConsecratedPath",
+      "baseGemName": "Consecrated Path",
       "altLetter": "x"
     },
     {
@@ -29504,6 +29648,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "Smite",
+      "baseGemName": "Smite",
       "altLetter": "x"
     },
     {
@@ -29740,6 +29885,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire an arrow that leaves a spore pod in its wake. The spore pod blooms, firing thorn arrows, which travel for a short time before dissipating. Modifiers that cause additional projectiles to be fired will only apply to the initial arrows, each of which leaves its own spore pod.",
       "type": "alt",
       "baseGemId": "ScourgeArrow",
+      "baseGemName": "Scourge Arrow",
       "altLetter": "x"
     },
     {
@@ -29986,6 +30132,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod slows the movement speed of nearby enemies. The pods last for a duration before bursting, dealing area damage.",
       "type": "alt",
       "baseGemId": "ToxicRain",
+      "baseGemName": "Toxic Rain",
       "altLetter": "x"
     },
     {
@@ -30111,6 +30258,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and withers them, causing them to take increased chaos damage. The pods last for a duration before bursting, dealing area damage.",
       "type": "alt",
       "baseGemId": "ToxicRain",
+      "baseGemName": "Toxic Rain",
       "altLetter": "y"
     },
     {
@@ -30215,6 +30363,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summon a Holy Relic that stays near you. When you hit an enemy with an attack, the Holy Relic triggers a spell with a short cooldown, that deals physical damage to enemies in an area around a nearby enemy.",
       "type": "alt",
       "baseGemId": "SummonHolyRelic",
+      "baseGemName": "Summon Holy Relic",
       "altLetter": "x"
     },
     {
@@ -30529,6 +30678,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Thrust an Axe or Sword forward to form a cluster of shards in front of you. The cluster will fire a number of projectiles in sequence, aiming at enemies in front of or close to it.",
       "type": "alt",
       "baseGemId": "LancingSteel",
+      "baseGemName": "Lancing Steel",
       "altLetter": "x"
     },
     {
@@ -30735,6 +30885,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, firing a beam which deals damage to the branded enemy and those around it. The brand will detach if the enemy dies.",
       "type": "alt",
       "baseGemId": "StormBrand",
+      "baseGemName": "Storm Brand",
       "altLetter": "x"
     },
     {
@@ -31056,6 +31207,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Swing an Axe or Sword, consuming Steel Shards to gain a Steel Ward that protects you for a duration, and fire projectiles which shatter on impact or soon after being launched, dealing area damage in front of where they shatter. Steel Shards are gained with the Call of Steel Skill.",
       "type": "alt",
       "baseGemId": "ShatteringSteel",
+      "baseGemName": "Shattering Steel",
       "altLetter": "x"
     },
     {
@@ -31256,6 +31408,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a magical brand which can attach to a nearby enemy. It activates once, causing a fiery meteor to fall from the sky, then is destroyed.",
       "type": "alt",
       "baseGemId": "ArmageddonBrand",
+      "baseGemName": "Armageddon Brand",
       "altLetter": "x"
     },
     {
@@ -31357,6 +31510,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, causing a fiery meteor to fall from the sky. The brand will detach if the enemy dies.",
       "type": "alt",
       "baseGemId": "ArmageddonBrand",
+      "baseGemName": "Armageddon Brand",
       "altLetter": "y"
     },
     {
@@ -31593,6 +31747,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "A wave of divine fire deals damage in a line, then creates Consecrated Ground and deals damage in an area around the targeted location. A larger shockwave then expands outwards, damaging enemies standing on Consecrated Ground that were not already hit.",
       "type": "alt",
       "baseGemId": "PurifyingFlame",
+      "baseGemName": "Purifying Flame",
       "altLetter": "x"
     },
     {
@@ -31816,6 +31971,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a projectile that deals chaos damage to enemies it hits and leeches some of that damage as energy shield.",
       "type": "alt",
       "baseGemId": "Soulrend",
+      "baseGemName": "Soulrend",
       "altLetter": "x"
     },
     {
@@ -31933,6 +32089,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a series of projectiles in a spiral that turn towards enemies in front of them, damaging and piercing through those they hit, and leeching some of that damage as energy shield. As the projectiles travel, they repeatedly apply a short but powerful chaos damage over time debuff to each enemy in an area around them.",
       "type": "alt",
       "baseGemId": "Soulrend",
+      "baseGemName": "Soulrend",
       "altLetter": "y"
     },
     {
@@ -32047,6 +32204,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Applies a debuff to enemies in a small area, which deals chaos damage over Time. Linked hex curses are also applied to those enemies. The debuff deals more damage and lasts longer for each hex applied this way.  This skill cannot be used by Totems, Traps, or Mines.",
       "type": "alt",
       "baseGemId": "Bane",
+      "baseGemName": "Bane",
       "altLetter": "x"
     },
     {
@@ -32259,6 +32417,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "An expanding wave of energy surges outwards from you, damaging enemies in a ring-shaped area over a duration. The ring then returns, damaging enemies again on the way back. Only one Wave of Conviction can be active at a time",
       "type": "alt",
       "baseGemId": "WaveOfConviction",
+      "baseGemName": "Wave of Conviction",
       "altLetter": "y"
     },
     {
@@ -32484,6 +32643,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channelling draws in energy around you to repeatedly build up stages, damaging a number of nearby enemies when you do so. Release to unleash this energy in a powerful burst around you. Maximum of 10 Stages.",
       "type": "alt",
       "baseGemId": "DivineIre",
+      "baseGemName": "Divine Ire",
       "altLetter": "x"
     },
     {
@@ -32576,6 +32736,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channelling draws in energy around you to repeatedly build up stages. Release to unleash this energy in a beam in front of you. Modifiers to area of effect do not affect this skill. Maximum of 10 Stages.",
       "type": "alt",
       "baseGemId": "DivineIre",
+      "baseGemName": "Divine Ire",
       "altLetter": "y"
     },
     {
@@ -32902,6 +33063,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Perform a spinning attack, damaging enemies around you and creating a random bladestorm. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe.",
       "type": "alt",
       "baseGemId": "Bladestorm",
+      "baseGemName": "Bladestorm",
       "altLetter": "x"
     },
     {
@@ -33187,6 +33349,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default.",
       "type": "alt",
       "baseGemId": "Perforate",
+      "baseGemName": "Perforate",
       "altLetter": "x"
     },
     {
@@ -33301,6 +33464,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe.",
       "type": "alt",
       "baseGemId": "Perforate",
+      "baseGemName": "Perforate",
       "altLetter": "y"
     },
     {
@@ -33517,6 +33681,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws chains ahead of you, attaching them to targets hit. Enemies chained to you will grant rage when hit. When chains are broken, they snap and deal attack damage in an area around the target they were attached to. Requires a One Handed Mace, Sceptre, Sword or Axe.",
       "type": "alt",
       "baseGemId": "ChainHook",
+      "baseGemName": "Chain Hook",
       "altLetter": "y"
     },
     {
@@ -33723,6 +33888,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Teleport to a location, damaging enemies in an area at both ends of the teleport. Deals higher damage to chilled enemies, then removes chill from them. Cannot be supported by Unleash.",
       "type": "alt",
       "baseGemId": "Frostblink",
+      "baseGemName": "Frostblink",
       "altLetter": "x"
     },
     {
@@ -34071,6 +34237,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Carrion Golem. The Carrion Golem attacks with a series of slashes that increase in speed and damage, as well as a cascade of bone spikes.",
       "type": "alt",
       "baseGemId": "SummonCarrionGolem",
+      "baseGemName": "Summon Carrion Golem",
       "altLetter": "x"
     },
     {
@@ -34128,6 +34295,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Carrion Golem. The Carrion Golem attacks with a series of slashes that increase in speed and damage, can consume corpses to heal itself and gain the ability to unleash a devastating cascade of bone spikes, and deals more damage for each of your non-golem minions near it.",
       "type": "alt",
       "baseGemId": "SummonCarrionGolem",
+      "baseGemName": "Summon Carrion Golem",
       "altLetter": "y"
     },
     {
@@ -34812,6 +34980,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a ballista totem that consumes your Steel Shards to fire multiple arrows with extreme force, breaking them apart into shrapnel. Enemies can be hit by multiple arrows from the same attack. Requires a Bow. Steel Shards are gained with the Call of Steel Skill.",
       "type": "alt",
       "baseGemId": "ShrapnelBallista",
+      "baseGemName": "Shrapnel Ballista",
       "altLetter": "x"
     },
     {
@@ -35150,6 +35319,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a ballista totem that propels a sequence of fiery arrows into the air. The arrows impact the ground in two perpendicular lines, each dealing area damage to enemies around it. Requires a Bow.",
       "type": "alt",
       "baseGemId": "ArtilleryBallista",
+      "baseGemName": "Artillery Ballista",
       "altLetter": "x"
     },
     {
@@ -35260,6 +35430,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a ballista totem that propels a number of fiery arrows into the air, each targeting a specific enemy. Arrows deal area damage to enemies around it on landing. Requires a Bow.",
       "type": "alt",
       "baseGemId": "ArtilleryBallista",
+      "baseGemName": "Artillery Ballista",
       "altLetter": "y"
     },
     {
@@ -35491,6 +35662,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Channel to spread runes on the ground in a growing pattern. The runes fade away after a duration, or will be immediately removed and deal damage in a circular area when detonated by Rune Blast. Enemies standing on the runes are Hindered, reducing their movement speed.",
       "type": "alt",
       "baseGemId": "Stormbind",
+      "baseGemName": "Stormbind",
       "altLetter": "x"
     },
     {
@@ -35721,6 +35893,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fire a projectile from your wand that changes direction in a zig-zag pattern at regular intervals or when hitting enemies. Each time it changes direction, a secondary projectile breaks off, flying in the direction it changed away from. Multiple of these projectiles can hit the same target.",
       "type": "alt",
       "baseGemId": "KineticBolt",
+      "baseGemName": "Kinetic Bolt",
       "altLetter": "x"
     },
     {
@@ -35921,6 +36094,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Deals spell damage in an area around you. If you have Blade Vortex blades orbiting you, it will detonate each of them in turn, dealing damage again in an area around you for each one.",
       "type": "alt",
       "baseGemId": "BladeBlast",
+      "baseGemName": "Blade Blast",
       "altLetter": "x"
     },
     {
@@ -36022,6 +36196,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Deals spell damage in an area around you. Your equipped daggers add to this damage.",
       "type": "alt",
       "baseGemId": "BladeBlast",
+      "baseGemName": "Blade Blast",
       "altLetter": "y"
     },
     {
@@ -36396,6 +36571,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, adding energy to the branded enemy and causing a pulse that deals damage to the branded enemy and other nearby enemies. The pulse gains area of effect and damage for each energy on the branded enemy, up to 20. All energy is removed from the enemy when the brand is detached.",
       "type": "alt",
       "baseGemId": "PenanceBrand",
+      "baseGemName": "Penance Brand",
       "altLetter": "x"
     },
     {
@@ -36499,6 +36675,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, adding energy to the branded enemy and nearby enemies who do not have energy. When the brand is detached, all enemies with energy are dealt damage.",
       "type": "alt",
       "baseGemId": "PenanceBrand",
+      "baseGemName": "Penance Brand",
       "altLetter": "y"
     },
     {
@@ -36792,6 +36969,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. The spikes shatter after a duration, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
       "type": "alt",
       "baseGemId": "Earthshatter",
+      "baseGemName": "Earthshatter",
       "altLetter": "x"
     },
     {
@@ -36907,6 +37085,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slam the ground, sending out a rectangular fissure that deals area damage to enemies and thrusts a large spike from the ground where it ends. Warcries or other Slam Attacks performed by you or allied players near the spike will cause it to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
       "type": "alt",
       "baseGemId": "Earthshatter",
+      "baseGemName": "Earthshatter",
       "altLetter": "y"
     },
     {
@@ -37254,6 +37433,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Creates a Void Sphere which Hinders enemies in an area around it, with the debuff being stronger on enemies closer to the sphere. It also regularly releases pulses of area damage. The Void Sphere will consume the corpses of any enemies which die in its area. Can only have one Void Sphere at a time.",
       "type": "alt",
       "baseGemId": "VoidSphere",
+      "baseGemName": "Void Sphere",
       "altLetter": "x"
     },
     {
@@ -37451,6 +37631,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Release a beam which deals lightning damage to enemies in a long area in front of you, and has several smaller beams branch off from it at an angle, hitting more enemies to the sides.",
       "type": "alt",
       "baseGemId": "CracklingLance",
+      "baseGemName": "Crackling Lance",
       "altLetter": "x"
     },
     {
@@ -37550,6 +37731,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Release a concentrated beam which deals lightning damage to enemies in a long area in front of you.",
       "type": "alt",
       "baseGemId": "CracklingLance",
+      "baseGemName": "Crackling Lance",
       "altLetter": "y"
     },
     {
@@ -37824,6 +38006,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Consume Steel Shards to fire a single projectile that splits on impact or at the targeted location, dealing area damage when it splits and again when the split projectiles explode at the end of their flight. Projectiles from this skill cannot return. Requires a Sword or Axe. Steel Shards are gained with the Call of Steel Skill.",
       "type": "alt",
       "baseGemId": "SplittingSteel",
+      "baseGemName": "Splitting Steel",
       "altLetter": "x"
     },
     {
@@ -38139,6 +38322,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Deals chaos damage to a single enemy, dealing more damage if they are Hexed, then removing the Hex. If the enemy was Hexed, also deals area damage to other enemies around the target, boosting damage and removing Hexes from those enemies in the same way.",
       "type": "alt",
       "baseGemId": "Hexblast",
+      "baseGemName": "Hexblast",
       "altLetter": "x"
     },
     {
@@ -38240,6 +38424,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Deals chaos damage to a single enemy. If the enemy was Hexed, also deals area damage to other enemies around the target.",
       "type": "alt",
       "baseGemId": "Hexblast",
+      "baseGemName": "Hexblast",
       "altLetter": "y"
     },
     {
@@ -38544,6 +38729,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Releases a tendril of blood from your character, which will target an enemy in front of you, then chain to other enemies. The tendril deals physical damage and inflicts a physical damage over time debuff to enemies, which can stack up to 3 times.",
       "type": "alt",
       "baseGemId": "Exsanguinate",
+      "baseGemName": "Exsanguinate",
       "altLetter": "x"
     },
     {
@@ -39082,6 +39268,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Spin with a sword or axe to deal damage in an area around you. If you have at least 10 rage, create a ragestorm attached to you that repeatedly deals attack damage to enemies inside based on your attack speed. The ragestorm consumes rage at an accelerating rate, and ends if you run out.",
       "type": "alt",
       "baseGemId": "RageVortex",
+      "baseGemName": "Rage Vortex",
       "altLetter": "x"
     },
     {
@@ -39292,6 +39479,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a trap which, once triggered, fires a spectral copy of your melee weapon. It spins around while flying in a large spiral, damaging enemies in its path, and bouncing if it collides with walls. If dual wielding, each Trap thrown will randomly use either the main hand or off hand weapon.",
       "type": "alt",
       "baseGemId": "SpectralHelix",
+      "baseGemName": "Spectral Helix",
       "altLetter": "y"
     },
     {
@@ -39564,6 +39752,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
       "type": "alt",
       "baseGemId": "Absolution",
+      "baseGemName": "Absolution",
       "altLetter": "x"
     },
     {
@@ -39790,6 +39979,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Lobs an exploding projectile near the targeted location, and extra projectiles toward enemies around you. The projectiles deal chaos damage based on your energy shield. Casting this spell damages you.",
       "type": "alt",
       "baseGemId": "ForbiddenRite",
+      "baseGemName": "Forbidden Rite",
       "altLetter": "x"
     },
     {
@@ -40164,6 +40354,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow into the air to land at a targeted location, dealing area damage. The arrow sticks in the ground where it lands, and periodically fires a beam of lightning to you, dealing area damage between the arrow and you.",
       "type": "alt",
       "baseGemId": "StormRain",
+      "baseGemName": "Storm Rain",
       "altLetter": "x"
     },
     {
@@ -40282,6 +40473,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires an arrow into the air to land at a targeted location, dealing area damage. The arrow sticks in the ground where it lands, and periodically fires a beam of lightning to another arrow near it, dealing area damage between them.",
       "type": "alt",
       "baseGemId": "StormRain",
+      "baseGemName": "Storm Rain",
       "altLetter": "y"
     },
     {
@@ -40498,6 +40690,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap.",
       "type": "alt",
       "baseGemId": "ShieldCrush",
+      "baseGemName": "Shield Crush",
       "altLetter": "x"
     },
     {
@@ -40602,6 +40795,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a Reaper which uses a variety of slashing area attacks. The presence of any Reapers weakens your other non-Reaper minions, and Reapers will consume them to temporarily empower and heal themselves.",
       "type": "alt",
       "baseGemId": "SummonReaper",
+      "baseGemName": "Summon Reaper",
       "altLetter": "x"
     },
     {
@@ -40644,6 +40838,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Summons a powerful Reaper which passively follows you without attacking enemies. The Reaper's presence weakens your other minions, and it will consume them to temporarily empower and heal itself. Using this skill while the Reaper is already summoned causes it to dash to the targeted location and perform a powerful attack. Cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines. ",
       "type": "alt",
       "baseGemId": "SummonReaper",
+      "baseGemName": "Summon Reaper",
       "altLetter": "y"
     },
     {
@@ -40880,6 +41075,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
       "type": "alt",
       "baseGemId": "Boneshatter",
+      "baseGemName": "Boneshatter",
       "altLetter": "x"
     },
     {
@@ -40993,6 +41189,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Attack enemies with a forceful melee strike. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
       "type": "alt",
       "baseGemId": "Boneshatter",
+      "baseGemName": "Boneshatter",
       "altLetter": "y"
     },
     {
@@ -41232,6 +41429,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a bottle that explodes to deal unarmed attack damage in an area. Can consume charges from your Ruby, Sapphire, and Topaz flasks to add further damage. Requires an empty main hand, and no off-hand weapon.",
       "type": "alt",
       "baseGemId": "ExplosiveConcoction",
+      "baseGemName": "Explosive Concoction",
       "altLetter": "x"
     },
     {
@@ -41444,6 +41642,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a single eye projectile which cannot damage enemies. When the eye dissipates or collides with terrain, it releases a fast spiral of shards. The shards will deal cold damage to enemies they impact.",
       "type": "alt",
       "baseGemId": "EyeOfWinter",
+      "baseGemName": "Eye of Winter",
       "altLetter": "x"
     },
     {
@@ -41551,6 +41750,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Fires a single eye projectile which releases a number shard projectiles in a spiral before dissipating. The shards will damage enemies they impact, dealing cold damage. The eye cannot damage enemies.",
       "type": "alt",
       "baseGemId": "EyeOfWinter",
+      "baseGemName": "Eye of Winter",
       "altLetter": "y"
     },
     {
@@ -41783,6 +41983,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Throws a single bottle that releases a burst when it hits the ground, dealing unarmed attack damage in an area with a chance to poison. The skill chains, bouncing randomly to deal damage multiple times. Can consume charges from a Life flask to add further damage. Requires an empty main hand, and no off-hand weapon.",
       "type": "alt",
       "baseGemId": "PoisonousConcoction",
+      "baseGemName": "Poisonous Concoction",
       "altLetter": "x"
     },
     {
@@ -42015,6 +42216,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Create a Tornado of a random element that hinders and repeatedly damages enemies around it, converting physical damage to its element. The Tornado will chase down enemies for a duration.",
       "type": "alt",
       "baseGemId": "Tornado",
+      "baseGemName": "Tornado",
       "altLetter": "y"
     },
     {
@@ -42427,6 +42629,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Lightning strikes a number of enemies around a targeted location. Cannot be supported by Spell Cascade.",
       "type": "alt",
       "baseGemId": "LightningConduit",
+      "baseGemName": "Lightning Conduit",
       "altLetter": "x"
     },
     {
@@ -42611,6 +42814,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Applies a buff boosting chance to shock. When you shock an enemy while you have this buff, creates a spherical field of energy attached to the shocked enemy for a duration, which will damage it and other nearby enemies with beams of lightning.",
       "type": "alt",
       "baseGemId": "GalvanicField",
+      "baseGemName": "Galvanic Field",
       "altLetter": "x"
     },
     {
@@ -42911,6 +43115,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts dealing damage in an area. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
       "type": "alt",
       "baseGemId": "VolcanicFissure",
+      "baseGemName": "Volcanic Fissure",
       "altLetter": "x"
     },
     {
@@ -42971,6 +43176,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines. ",
       "type": "alt",
       "baseGemId": "FrozenLegion",
+      "baseGemName": "Frozen Legion",
       "altLetter": "x"
     },
     {
@@ -43423,6 +43629,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Swing your wand to cause a number of projectiles to rain down within a large area in front of you, directly targeting the locations of enemies in the area. The locations where each projectile will land are shown with markers before they fall. Each projectile explodes when hitting the ground, dealing area damage.",
       "type": "alt",
       "baseGemId": "KineticRain",
+      "baseGemName": "Kinetic Rain",
       "altLetter": "x"
     },
     {
@@ -43885,6 +44092,7 @@ export const GEMS: { skills: SkillGem[]; supports: SupportGem[] } = {
       "description": "Wave your wand to create multiple hovering kinetic projectiles. After a short duration, the projectiles explode, dealing area damage. Using this attack again will reset the duration for all hovering projectiles. Cannot be directly used by traps or mines.",
       "type": "alt",
       "baseGemId": "KineticFusillade",
+      "baseGemName": "Kinetic Fusillade",
       "altLetter": "x"
     },
     {

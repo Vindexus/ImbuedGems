@@ -15,6 +15,7 @@ export type SkillGem = Gem & {
 } & ({
   type: 'alt'
   baseGemId: string
+  baseGemName: string
   altLetter: string
 } | {
   type: 'base'

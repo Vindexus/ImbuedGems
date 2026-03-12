@@ -110,7 +110,8 @@ for (const [key, raw] of Object.entries(rawGems)) {
     }
 
     if (baseGemId && altLetter) {
-      skills.push({ ...base, type: 'alt', baseGemId, altLetter })
+      const baseGemName = rawGems[baseGemId]?.display_name ?? ''
+      skills.push({ ...base, type: 'alt', baseGemId, baseGemName, altLetter })
     } else {
       skills.push({ ...base, type: 'base' })
     }
