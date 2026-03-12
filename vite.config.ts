@@ -1,10 +1,11 @@
 // vite.config.ts
-import { defineConfig } from 'vite'
+import { defineConfig, optimizeDeps } from 'vite'
 import tsConfigPaths from 'vite-tsconfig-paths'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
+let num = 0;
 export default defineConfig({
   base: '/ImbuedGems/',
   server: {
@@ -19,6 +20,13 @@ export default defineConfig({
         autoStaticPathsDiscovery: true,
         crawlLinks: true,
         failOnError: true,
+        filter: (opts) => {
+          // Too many links if we include all of these
+          if (opts.path.includes('?selected')) {
+            return false
+          }
+          return true
+        }
       },
     }),
     tailwindcss(),

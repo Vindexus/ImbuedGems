@@ -7,6 +7,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const rawGems: Record<string, any> = JSON.parse(readFileSync(join(__dirname, 'repoe-gems-raw.json'), 'utf-8'))
 const imbuedTrade: { id: string; text: string }[] = JSON.parse(readFileSync(join(__dirname, 'imbued_trade.json'), 'utf-8'))
+const gemsTrade: { entries: { type: string }[] } = JSON.parse(readFileSync(join(__dirname, 'gems_trade.json'), 'utf-8'))
+const tradeableGemNames = new Set(gemsTrade.entries.map(e => e.type))
 
 const PREFIX = 'Supported by Level 1 '
 const SUPPORT_TRADE_IDS = new Map<string, number>(
@@ -91,6 +93,10 @@ for (const [key, raw] of Object.entries(rawGems)) {
     const altMatch = key.match(ALT_SUFFIX_RE)
     const baseGemId = altMatch ? key.replace(ALT_SUFFIX_RE, '') : null
     const altLetter = altMatch ? altMatch[1].toLowerCase() : null
+
+    // Skip item-granted skills — only include gems obtainable as skill gems on trade
+    const baseDisplayName = baseGemId ? rawGems[baseGemId]?.display_name : raw.display_name
+    if (!tradeableGemNames.has(baseDisplayName)) continue
 
     const base: Omit<SkillGem, 'type' | 'baseGemId' | 'altLetter'> = {
       id: key,
