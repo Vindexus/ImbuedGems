@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite dev",
-    "build": "npm run build:gems && vite build",
+    "build": "vite build",
     "build:gems": "tsx data/build_repoe_gems.ts"
   },
   "keywords": [],
