@@ -63,6 +63,7 @@ function Home() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    if (debounceRef.current) clearTimeout(debounceRef.current)
     const target = filtered[highlightedIndex] ?? filtered[0]
     if (target) navigate({ to: '/$gem', params: { gem: target.slug }, search: { selected: undefined } })
   }
